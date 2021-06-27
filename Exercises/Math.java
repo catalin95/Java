@@ -30,11 +30,3 @@ public class Math{
 
     return newNumber;
   }
-
-  public static void main(String args[]){
-
-    System.out.println(exponent(4, 4));
-    System.out.println(logarithm(3, 9));
-
-  }
-}
