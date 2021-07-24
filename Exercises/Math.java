@@ -6,7 +6,7 @@ public class Math{
       return -1;
     }
 
-    int initial = 1, counter = 0;
+    int counter = 0;
 
     while (number % base == 0){
       number /= base;
@@ -30,3 +30,4 @@ public class Math{
 
     return newNumber;
   }
+}
